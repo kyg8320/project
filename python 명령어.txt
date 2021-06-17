@@ -1,0 +1,9 @@
+
+--실행
+C:/Users/user/AppData/Local/Programs/Python/Python39/python.exe "c:/Users/user/Desktop/개인 폴더/project/run.py"
+
+--UI 생성
+pyuic5 untitled.ui -o project.py
+
+--실행파일 만들기
+pyinstaller -w -F run.py --icon=icon.ico --name=장부프로그램
